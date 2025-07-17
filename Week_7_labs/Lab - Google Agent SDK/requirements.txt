@@ -1,0 +1,6 @@
+a2a
+uvicorn
+httpx
+pydantic
+fastapi
+starlette
