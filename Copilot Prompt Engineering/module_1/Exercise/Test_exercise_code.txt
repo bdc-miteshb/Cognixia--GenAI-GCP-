@@ -1,0 +1,15 @@
+Task 1: Understand what the code does
+Question: What prompt would you use to understand what these functions do?
+Answer: "Explain what check_password_strength and login_user functions do in simple terms"
+
+Task 2: Find security problems
+Question: How would you ask to identify security issues in the login code?
+Answer: "What security problems or vulnerabilities exist in this login code?"
+
+Task 3: Check missing validations
+Question: What prompt helps find what checks are missing in password validation?
+Answer: "What password rules or validations are missing in check_password_strength function?"
+
+Task 4: Generate basic test ideas
+Question: How would you prompt to get simple test scenarios for this login system?
+Answer: "Generate 3 simple test cases for the login system with valid and invalid inputs"
