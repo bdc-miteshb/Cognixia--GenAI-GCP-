@@ -1,0 +1,41 @@
+MODULE 1 EXERCISES - QUALITY CONTROL DOCUMENT
+
+Task 1: Summarize the document purpose
+Question: What prompt would you use to understand the main purpose of this Quality Control document?
+Answer: "Summarize the main purpose and goal of this Quality Control documentation in 2-3 sentences"
+
+Task 2: List key quality control stages
+Question: How would you ask to identify all QC stages mentioned in the document?
+Answer: "List all quality control stages from the document and briefly describe each"
+
+Task 3: Find important quality attributes
+Question: What prompt helps identify critical parameters that need to be controlled?
+Answer: "What are the Key Quality Attributes mentioned in the document?"
+
+Task 4: Understand inspection procedures
+Question: How would you prompt to learn about incoming material inspection process?
+Answer: "Explain the Incoming Material Inspection procedure in simple steps"
+
+Task 5: Identify missing information
+Question: What prompt finds unclear or incomplete details in the procedures?
+Answer: "What information or details are missing from the Quality Control procedures?"
+
+Task 6: Extract non-conforming product handling
+Question: How would you ask about what happens to rejected products?
+Answer: "Summarize how non-conforming products are handled according to this document"
+
+Task 7: List documentation requirements
+Question: What prompt identifies record keeping needs?
+Answer: "What documentation and records must be maintained for quality control?"
+
+Task 8: Find training requirements
+Question: How would you prompt to understand personnel training needs?
+Answer: "What training requirements are specified for QC personnel?"
+
+Task 9: Identify potential risks
+Question: What prompt helps find testing risks in these QC procedures?
+Answer: "What are the potential risks or gaps in these quality control procedures?"
+
+Task 10: Create simple test scenarios
+Question: How would you ask for basic test ideas for the QC process?
+Answer: "Generate 5 basic test scenarios to verify these quality control procedures work correctly"
