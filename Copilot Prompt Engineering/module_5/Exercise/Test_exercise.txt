@@ -1,0 +1,41 @@
+MODULE 5 EXERCISES - USE demo_product_review.py
+
+Task 1: Find unclear requirements using prompt
+Question: What prompt would you use to identify missing or unclear details in the user story?
+Answer: "Identify ambiguities and missing details in the product review user story requirements"
+
+Task 2: Generate functional tests using prompt
+Question: How would you use prompt to create basic test cases for submit_review function?
+Answer: "Generate functional test cases for submit_review function with valid and invalid ratings"
+
+Task 3: Create complete user flow test using prompt
+Question: What prompt creates a full scenario from submitting review to displaying average rating?
+Answer: "Create end-to-end test scenario covering submit review, calculate average rating, and filter reviews flow"
+
+Task 4: Generate exploratory testing ideas using prompt
+Question: How would you use prompt to get exploratory test ideas for review system?
+Answer: "Generate exploratory test charter for product review system with test ideas and areas to explore"
+
+Task 5: Create test data for rating ranges using prompt
+Question: What prompt generates test data using equivalence partitioning for ratings?
+Answer: "Create test data for submit_review rating parameter using equivalence partitioning for valid and invalid ranges"
+
+Task 6: Generate boundary tests using prompt
+Question: How would you use prompt to create boundary test cases for review text length?
+Answer: "Generate boundary value test cases for review_text with 499, 500, and 501 characters"
+
+Task 7: Create realistic test data using prompt
+Question: What prompt creates test data based on different user types?
+Answer: "Create persona-based test data for product reviews: casual reviewer, detailed reviewer, critical reviewer"
+
+Task 8: Generate performance test ideas using prompt
+Question: How would you use prompt to create non-functional test scenarios?
+Answer: "Generate non-functional test scenarios for demo_product_review.py covering performance and usability"
+
+Task 9: Write bug report using prompt
+Question: What prompt creates a bug report for missing purchase verification in submit_review?
+Answer: "Write bug report for submit_review: function does not verify if user purchased product, allows anyone to review"
+
+Task 10: Explain bug importance using prompt
+Question: How would you use prompt to write why average rating calculation bug is important?
+Answer: "Write bug advocacy statement for calculate_average_rating bug explaining business impact and urgency"

@@ -1,0 +1,43 @@
+MODULE 3 EXERCISES - USE search_filter.py
+
+All task needs to be done by using prompt only.
+
+Task 1: Editor mode inline prompting
+Question: How would you use code comment to generate tests for sort_products?
+Answer: Add comment above sort_products: "# Generate test cases for sorting by price and name with empty product list"
+
+Task 2: Chat mode analysis
+Question: What chat prompt identifies missing validations in search module?
+Answer: "Analyze search_filter.py and identify missing input validations and error handling"
+
+Task 3: Conversational refinement
+Question: After basic search tests, how would you add case sensitivity tests?
+Answer: First: "Create test cases for search_products" Follow-up: "Add tests for uppercase keywords and mixed case searches"
+
+Task 4: Convert code to test conditions
+Question: How would you transform filter_by_price logic into test documentation?
+Answer: "Convert filter_by_price function into detailed test conditions with test steps and expected results"
+
+Task 5: Generate test strategy
+Question: What prompt creates testing approach for entire module?
+Answer: "Create test strategy for search_filter.py covering functional, performance, and edge case testing"
+
+Task 6: Editor mode for edge cases
+Question: How would you prompt inline for null input handling?
+Answer: Add comment: "# Generate tests for filter_by_category with null category, empty string, and special characters"
+
+Task 7: Chat mode for integration tests
+Question: What prompt creates tests combining multiple functions?
+Answer: "Generate integration test scenarios combining search_products with filter_by_price and sort_products"
+
+Task 8: Iterative test enhancement
+Question: After price filter tests, how would you add boundary tests?
+Answer: First: "Generate tests for filter_by_price" Follow-up: "Add boundary tests with 0, negative, and maximum price values"
+
+Task 9: Documentation generation
+Question: How would you create test execution guide?
+Answer: "Create test execution guide for search_filter.py with setup steps, test sequence, and expected outcomes"
+
+Task 10: Test data generation
+Question: What prompt creates reusable test data?
+Answer: "Generate test data sets for search_filter.py with sample products covering all test scenarios"

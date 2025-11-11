@@ -1,0 +1,43 @@
+MODULE 2 EXERCISES - USE user_registration.py
+
+All task needs to be done by using prompt only.
+
+Task 1: Zero-shot prompting
+Question: How would you generate tests without providing examples?
+Answer: "Generate 5 test cases for register_user function covering all validation rules"
+
+Task 2: Few-shot prompting
+Question: How would you provide an example and ask for similar tests?
+Answer: "Example: test_valid_username('john123', 'john@email.com', 25, 'pass1234') returns Registration successful. Create 3 similar tests with invalid inputs"
+
+Task 3: Chain-of-thought prompting
+Question: How would you prompt for step-by-step test generation?
+Answer: "First list all validation rules in register_user, then identify invalid inputs for each rule, then create one test case per invalid input"
+
+Task 4: Role-based prompting
+Question: How would you use security tester perspective?
+Answer: "Act as a security tester and identify security risks in register_user function, then create 3 security test cases"
+
+Task 5: Structured output prompting
+Question: How would you request tests in table format?
+Answer: "Generate test cases for register_user in format: Test Name | Input | Expected Output | Test Type"
+
+Task 6: Context-loaded prompting
+Question: How would you provide full requirements for comprehensive tests?
+Answer: "Given register_user validates username (3-20 alphanumeric), email (@ and .), age (18-100), password (8+ with number), generate complete test suite"
+
+Task 7: Constraint-based prompting
+Question: How would you limit tests to specific parameter only?
+Answer: "Generate exactly 4 boundary test cases for age parameter only in register_user, ignore other validations"
+
+Task 8: Decomposition prompting
+Question: How would you break down complex testing into steps?
+Answer: "Step 1: List all parameters in register_user. Step 2: For each parameter find valid and invalid values. Step 3: Create one test per value"
+
+Task 9: Test category prompting
+Question: How would you organize tests by type?
+Answer: "For register_user create: 2 positive tests, 3 negative tests, 2 boundary tests. Label each category clearly"
+
+Task 10: Equivalence partitioning prompting
+Question: How would you apply testing technique through prompt?
+Answer: "Apply equivalence partitioning to username validation in register_user and create one test per equivalence class"
