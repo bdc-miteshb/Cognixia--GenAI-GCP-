@@ -1,0 +1,22 @@
+You are an expert Python developer. I have a FastAPI application with endpoints for creating, retrieving, updating, and listing orders. The app uses:
+- Pydantic models for validation.
+- Authorization via `Authorization` header (Bearer token).
+- ETag for concurrency control on PUT.
+- Pagination with `limit` and `offset` query params.
+
+Write a pytest test file using `fastapi.testclient.TestClient` that:
+1. Creates a fixture for the client.
+2. Tests the happy path: create an order and then retrieve it.
+3. Tests authorization failures for missing, empty, and wrong tokens.
+4. Tests pagination behavior, including server-side limit cap.
+5. Tests that PUT requires a correct ETag and fails with stale or missing ETag.
+6. Tests validation errors for:
+   - Empty `user_id`
+   - Negative `amount`
+   - Invalid currency format
+
+Important details for numeric fields:
+- When asserting `amount`, do NOT compare raw strings like `"30.00"`. Instead, convert to `Decimal` or `float` for equality:
+  ```python
+  from decimal import Decimal
+  assert Decimal(resp.json()["amount"]) == Decimal("30.00")
