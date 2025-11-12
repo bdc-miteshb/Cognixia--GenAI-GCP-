@@ -1,0 +1,41 @@
+MODULE 6 EXERCISES - USE food_delivery_dispatch.py
+
+Task 1: Identify hidden risks using prompt
+Question: What prompt would you use to find hidden or implicit risk conditions in the dispatch logic?
+Answer: "List hidden risk conditions in food_delivery_dispatch.py such as weather penalty, kitchen delay, ETA slip, and thermal window violations"
+
+Task 2: Generate eligibility edge cases using prompt
+Question: How would you use prompt to generate test cases for vehicle-distance eligibility conditions?
+Answer: "Generate test cases for courier eligibility with just-under and just-over distance values by vehicle type and expected assignment status"
+
+Task 3: Create test data for thermal violations using prompt
+Question: What prompt generates scenarios where couriers meet eligibility but fail thermal window checks?
+Answer: "Create test scenarios for orders where all couriers pass eligibility yet exceed the thermal window, causing escalation"
+
+Task 4: Generate reassignment test using prompt
+Question: How would you use prompt to create a test for reassign_if_slip function with ETA thresholds?
+Answer: "Generate functional test cases for reassign_if_slip covering ETA slip just below and above the reassignment threshold"
+
+Task 5: Derive workload balance scenarios using prompt
+Question: What prompt would you use to create inputs for balancing courier load under weather impact?
+Answer: "Generate input scenarios to test fair workload distribution under weather_bad=True with varying ETA and current_load"
+
+Task 6: Combine delay interactions using prompt
+Question: How would you use prompt to test kitchen delay and weather penalty interactions?
+Answer: "Generate test cases combining kitchen_delayed=True and weather_bad=True to measure compounded ETA and assignment impact"
+
+Task 7: Create invalid input tests using prompt
+Question: What prompt generates invalid and negative input tests for order validation?
+Answer: "Generate invalid order test cases with negative distance, zero prep_time, and bad temp_class expecting escalation"
+
+Task 8: Generate heuristic checklist using prompt
+Question: How would you use prompt to create a dispatch risk heuristic checklist?
+Answer: "Generate risk heuristic checklist mapping vehicle capacity, distance limit, thermal window, and ETA slip to rule_hits and reasons"
+
+Task 9: Create end-to-end flow test using prompt
+Question: What prompt generates complete scenario from assignment to reassign under bad weather?
+Answer: "Generate end-to-end test covering weather_bad dispatch: assign courier, trigger ETA slip, reassign order, and log audit trail"
+
+Task 10: Develop monitoring metrics using prompt
+Question: How would you use prompt to design metrics for tracking hidden risks in dispatch system?
+Answer: "Generate prompt for designing monitoring metrics: queued_count, escalate_rate, thermal_violation_rate, and reassign_frequency"

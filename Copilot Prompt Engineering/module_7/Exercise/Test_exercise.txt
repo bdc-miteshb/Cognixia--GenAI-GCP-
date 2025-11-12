@@ -1,0 +1,42 @@
+
+MODULE 7 EXERCISES - USE promotion_pricing_engine.py
+
+Task 1: Understand unit test style using prompt
+Question: What prompt would you use to describe how unit tests are structured for pricing functions?
+Answer: "Explain how unit tests are structured including setup, action, assertions, and edge-case parametrization for pricing functions"
+
+Task 2: Convert unit test to manual case using prompt
+Question: What prompt helps you convert a test for GOLD + PCT10 scenario into a manual test?
+Answer: "Convert test for GOLD membership and PCT10 coupon into a manual test case listing inputs, expected subtotal, discounts, shipping, and total"
+
+Task 3: Verify stacking limit using prompt
+Question: How would you use prompt to generate test cases checking stacking limit enforcement?
+Answer: "Generate test cases to confirm only two discounts apply when more than two coupons or memberships are used"
+
+Task 4: Test discount cap using prompt
+Question: What prompt creates manual test cases to verify discount cap of 60 percent?
+Answer: "Generate manual test cases verifying discount cap at 60 percent of subtotal and inclusion of discount_cap_applied flag"
+
+Task 5: Check rounding behavior using prompt
+Question: How would you use prompt to confirm rounding occurs correctly at each computation stage?
+Answer: "Generate test cases validating rounding of subtotal, discounts, tax, and total to two decimals at each stage"
+
+Task 6: Verify BOGO discount logic using prompt
+Question: What prompt generates tests to confirm BOGO1 applies only to eligible SKUs?
+Answer: "Generate test cases verifying BOGO1 discount applies only to SKUs starting with B1 and gives every second item free"
+
+Task 7: Validate membership and shipping threshold using prompt
+Question: How would you create prompt-based test cases for membership-based shipping logic?
+Answer: "Generate test cases verifying GOLD always gets free shipping and SILVER gets it only if subtotal_after_discounts ≥ threshold"
+
+Task 8: Validate tax logic using prompt
+Question: What prompt generates test cases for category-based and tax-exempt items?
+Answer: "Generate test cases verifying tax for general vs food items and confirm tax_exempt SKUs are not taxed"
+
+Task 9: Check minimum payable guardrail using prompt
+Question: How would you generate prompt-based test cases for enforcing minimum payable of $1?
+Answer: "Generate test cases ensuring totals below $1 are adjusted to 1.00 and flag min_payable_enforced is added"
+
+Task 10: Identify invalid input scenarios using prompt
+Question: What prompt lists invalid or edge-case inputs that need testing?
+Answer: "List invalid input test cases for promotion_pricing_engine.py such as negative prices, unknown regions, and malformed coupon codes"
