@@ -1,0 +1,41 @@
+MODULE 4 EXERCISES - USE demo_api_endpoints.py
+
+Task 1: Generate test cases for user creation using prompt
+Question: What prompt would you use to create test cases for create_user function testing valid users, duplicate usernames, invalid emails, and weak passwords?
+Answer: "Generate test cases for create_user function covering valid user creation, duplicate username, duplicate email, invalid email format, and weak password"
+
+Task 2: Find security issues using prompt
+Question: How would you use prompt to identify security problems in the user API?
+Answer: "Identify security vulnerabilities in demo_api_endpoints.py including password storage, session management, and authorization"
+
+Task 3: Create test data for login using prompt
+Question: What prompt generates test data for the login_user function?
+Answer: "Generate test data for login_user with valid credentials, wrong password, non-existent user, and inactive accounts"
+
+Task 4: Write bug report for permission issue using prompt
+Question: How would you create a bug report for users being able to view other user profiles?
+Answer: "Write bug report: get_user allows regular users to view other profiles if they have valid session token. Include severity and expected behavior"
+
+Task 5: Generate negative tests for update using prompt
+Question: What prompt creates tests for invalid update scenarios?
+Answer: "Create negative test cases for update_user testing unauthorized updates, invalid email format, and weak password"
+
+Task 6: Check missing validations using prompt
+Question: How would you find missing checks in delete_user function?
+Answer: "Analyze delete_user function and identify missing validations like preventing self-deletion and checking user relationships"
+
+Task 7: Create API integration test using prompt
+Question: What prompt generates end-to-end test for user lifecycle?
+Answer: "Generate integration test for complete user flow: create user, login, get profile, update email, and delete user"
+
+Task 8: Generate boundary tests using prompt
+Question: How would you create boundary tests for username validation?
+Answer: "Create boundary test cases for username with 2, 3, 20, and 21 characters"
+
+Task 9: Find edge cases in session management using prompt
+Question: What prompt identifies edge cases in login and session handling?
+Answer: "List edge cases for login_user and session management including concurrent logins, expired sessions, and multiple devices"
+
+Task 10: Create test documentation using prompt
+Question: How would you generate test documentation for the API?
+Answer: "Create test documentation for demo_api_endpoints.py listing all endpoints, test coverage, and known issues"
