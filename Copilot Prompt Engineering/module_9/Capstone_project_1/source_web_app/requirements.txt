@@ -1,0 +1,2 @@
+streamlit==1.28.0
+# No additional dependencies needed - using built-in sqlite3 and hashlib
